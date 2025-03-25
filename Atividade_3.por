@@ -1,11 +1,21 @@
 programa {
   funcao inicio() {
-    real a, b, c
-    escreva("Digite o primeiro numero: ")
-    leia(a)
-    escreva("Digite o segundo numero: ")
-    leia(b)
-    c = a - b
-    escreva("O resultado da subtração é: ", c)
+
+    inteiro x, y, soma, sub, mult
+
+    escreva("Digite o primeiro número:")
+    leia(x)
+
+    escreva("Digite o segundo número:")
+    leia(y)
+
+    soma = x + y
+    escreva("O resultado da soma é :", soma,"\n")
+    
+    sub = x - y
+    escreva("O resultado da subtração é: ", sub,"\n")
+
+    mult = x * y
+    escreva ("O resultado da multiplicação é:", mult)
   }
 }
