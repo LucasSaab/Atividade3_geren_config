@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
-    inteiro x, y, soma, mult
+
+    inteiro x, y, soma, sub, mult
 
     escreva("Digite o primeiro número:")
     leia(x)
@@ -10,6 +11,9 @@ programa {
 
     soma = x + y
     escreva("O resultado da soma é :", soma,"\n")
+    
+    sub = x - y
+    escreva("O resultado da subtração é: ", sub,"\n")
 
     mult = x * y
     escreva ("O resultado da multiplicação é:", mult)
