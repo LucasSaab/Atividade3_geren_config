@@ -1,8 +1,9 @@
 programa {
+  inclua biblioteca Matematica -->M
   funcao inicio() {
+    real x, y, soma, sub, mult,div, pot
 
-    real x, y, soma, sub, mult,div
-
+    escreva ("Vamos calcular!\n")
     escreva("Digite o primeiro número:")
     leia(x)
     escreva("Digite o segundo número:")
@@ -16,6 +17,8 @@ programa {
     escreva ("O resultado da multiplicação é:", mult,"\n")
     div = x/y
     escreva ("O resultado da divisão é:", div)
+    pot = M.potencia(x,y)
+    escreva ("O resultado da potencia é:", pot)
   }
 }
 
